@@ -1,0 +1,20 @@
+
+
+:root{
+    --background:#fff;
+    --test-primary: #000;
+    --button-bg: #000;
+    --button-text:#fff;
+}
+
+[data-theme='dark']{
+    --background:#000;
+    --test-primary: #fff;
+    --button-bg: #fff;
+    --button-text:#000;
+}
+
+.light-dark-mode{
+    background-color: var(--background);
+    height: 100vh;
+}
